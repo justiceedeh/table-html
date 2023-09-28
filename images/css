@@ -1,0 +1,93 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.nav>a{
+    text-decoration: none;
+    margin-left: 50px;
+    color: black;
+    
+    
+}
+ h1{
+    margin-left: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+p{
+    margin-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.box{
+    margin-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.both{
+    background-color: blue;
+    border: none;
+    color: white;
+}
+.first-img{
+     display: flex;
+    align-items: center;
+}
+.man>img{
+width: 600px;
+align-content: center;
+padding-bottom: 30px;
+
+
+}
+.school
+    
+
+.line{
+    border-bottom:  1px solid green;
+    width: 150px;
+    align-items: center;
+    margin: 35px;
+}
+.people{
+    display: flex;
+    align-items: center;
+}
+.mannote{
+    display: flex;
+}
+.three>img{
+    width: 600px;
+}
+
+    
+
+
+
+
+
+    
+
+    
+
+    
+    
+    
+
+    
+
+    
+    
+
+
+    
+    
+
+
+
+
+   

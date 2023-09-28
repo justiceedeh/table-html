@@ -1,0 +1,201 @@
+.first-nav>img{
+    width: 50px;
+}
+
+.first-nav{
+    display: flex;
+    gap:60px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+nav>a{
+    text-decoration: none;
+    color: black;
+    margin: 8px;
+}.second-flex{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.page{
+    margin-left: 20px;
+}
+.fylo{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.shape{
+    margin-left: 30px;
+}
+.second-flex>img{
+    width: 300px;
+}
+.background>img{
+    width: 30px;
+}
+.man{
+    display: flex;
+    align-items: center;
+    
+}
+.man>img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+}
+.third-flex{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(240, 75%, 98%);
+    margin-left: 30px;
+}
+.third-flex>img{
+    width: 300px;
+}
+.blue{
+    align-items: center;
+    background-color: blue;
+    color: white;
+    width: 150px;
+    border-radius: 5px;
+}
+.green{
+    border-bottom: solid green 1px;
+    width: 150px;
+    color: green;
+    padding-top: 0px;
+    margin-left: 50px;
+}
+.four-flex{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+
+    background-color: darkorchid;
+}
+.fift-flex{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    
+
+    background-color: indigo;
+    color: white;
+}
+.fift-flex>img{
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.app-icon>img{
+    width: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    gap: 5px;
+}
+.text{
+    background-color: rgb(213, 216, 219);
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom: 50px;
+    width: fit-content;
+}
+.iteam{
+    margin-left: 10px;
+}
+.book{
+    margin-left: 10px;
+}
+.phone{
+    margin-left: 10px;
+}
+.home{
+    margin-left: 10px;
+}
+.p{
+  margin-left: 10px;  
+}
+
+
+
+/* extra large devices (large laptops and desktop,)*/
+@media only screen and (max-width: 1440px)
+{
+    .first-nav>img{
+        width: 100px;
+     
+
+     .first-nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    nav>a{
+        margin-right: 30px;
+    }
+    .second-flex{
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .second-flex>img{
+        width: 500px;
+    }
+    .background>img{
+        width: 50px;
+    }
+    .third-flex{
+        
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .third-flex>img{
+        width: 500px;
+    }
+    .fift-flex>img{
+            width: 150px;
+            margin-top: 20px;
+            margin-left: 20px;
+    }
+    .blue{
+        width: 170px;
+        height: 20px;
+    }
+    .four-flex{
+        
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    
+        
+    }
+    .fift-flex{
+        
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: cente;
+        
+    }
+    .phone{
+        margin-left: 10px;
+    }
+    .home{
+        margin-left: 10px;
+    }
+    .page{
+        margin-left: 20px;
+    }
+    .fylo{
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .app-icon{
+        margin-right: 50px;
+        margin-top: 20px;
+    }
+
+    
+
+    }
+        }
+    
